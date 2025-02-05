@@ -12,6 +12,8 @@ def is_prime(n):
     return True
 
 def is_perfect(n):
+    if n == 0:
+        return False
     return n == sum(i for i in range(1, abs(n)) if n % i == 0)
 
 def is_armstrong(n):
