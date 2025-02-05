@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-tmw7uj0(!^c$nbra8wll3gj#bmb$3%emk6hnxy9sq_*!sy1p5b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'chika-devopsstage1.azurewebsites.net','0.0.0.0:8000','localhost','devops-chika.net','127.0.0.1'
+]
 
 
 # Application definition
